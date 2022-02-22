@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/react-ts-landing/static/css/main.3c1527be.css",
-    "main.js": "/react-ts-landing/static/js/main.c98a2f6a.js",
+    "main.css": "/react-ts-landing/static/css/main.4cba9e4e.css",
+    "main.js": "/react-ts-landing/static/js/main.5222a886.js",
+    "static/media/image-1.png": "/react-ts-landing/static/media/image-1.17e58fd6feddbd4753a5.png",
+    "static/media/publications.svg": "/react-ts-landing/static/media/publications.afc09e04d8a1f8891d5a.svg",
+    "static/media/daily-goals.svg": "/react-ts-landing/static/media/daily-goals.df92d7d87bbd9f30997a.svg",
     "static/media/logo.svg": "/react-ts-landing/static/media/logo.83602ab9787c0f52ed28.svg",
+    "static/media/book.svg": "/react-ts-landing/static/media/book.da47877dc8c62e003729.svg",
+    "static/media/iphone.svg": "/react-ts-landing/static/media/iphone.10fe4c13d96c5c1be2cd.svg",
+    "static/media/lightning-cards.svg": "/react-ts-landing/static/media/lightning-cards.4aa9d636b9fc0c27497d.svg",
     "static/media/account.svg": "/react-ts-landing/static/media/account.a7d3f08e87be8803ee5a.svg",
     "static/media/menu.svg": "/react-ts-landing/static/media/menu.4c72f5ec616289b45e85.svg",
     "index.html": "/react-ts-landing/index.html",
-    "main.3c1527be.css.map": "/react-ts-landing/static/css/main.3c1527be.css.map",
-    "main.c98a2f6a.js.map": "/react-ts-landing/static/js/main.c98a2f6a.js.map"
+    "static/media/arrow-end.svg": "/react-ts-landing/static/media/arrow-end.3cccca65ccefb87f1a75.svg",
+    "static/media/arrow-start.svg": "/react-ts-landing/static/media/arrow-start.07c10b20ecf9bac1db23.svg",
+    "main.4cba9e4e.css.map": "/react-ts-landing/static/css/main.4cba9e4e.css.map",
+    "main.5222a886.js.map": "/react-ts-landing/static/js/main.5222a886.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c1527be.css",
-    "static/js/main.c98a2f6a.js"
+    "static/css/main.4cba9e4e.css",
+    "static/js/main.5222a886.js"
   ]
 }
