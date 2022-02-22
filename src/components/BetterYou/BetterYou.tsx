@@ -1,22 +1,26 @@
 import React from 'react';
 import './BetterYou.scss';
-// import { Player } from '@lottiefiles/react-lottie-player';
+import Lottie from 'react-lottie-player/dist/LottiePlayerLight';
+import lottieJson from '../../lottie/lottie.json';
 
 export const BetterYou: React.FC = () => (
-  <div className="BetterYou">
-    <h2 className="BetterYou__title">
+  <div className="BetterYou card">
+    <h2 className="BetterYou__title title">
       Become a better you
     </h2>
 
-    <p className="BetterYou__subtitle">
+    <p className="BetterYou__text">
       with 15-min bite-sized reads and audios of the world’s best nonfiction books
     </p>
 
-    {/* <Player
-      autoplay
+    <Lottie
+      className='BetterYou__lottie'
+      play
+      loop={false}
+      speed={0.75}
+      animationData={lottieJson}
+    />
 
-      src="https://assets9.lottiefiles.com/packages/lf20_jxqxrivg.json"
-      style={{ height: '300px', width: '300px' }}
-    /> */}
+    <div className="BetterYou__image"></div>
   </div>
 );

@@ -1,0 +1,24 @@
+.GetSmarterCard {
+  background-color: #E6F2E7;
+  border: 1px solid rgba(0, 187, 119, 0.4);
+
+  &__image {
+    width: 327px;
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &--publications {
+      background-image: url(../../img/publications.svg);
+    }
+
+    &--lightning-cards {
+      background-image: url(../../img/lightning-cards.svg);
+    }
+
+    &--daily-goals {
+      background-image: url(../../img/daily-goals.svg);
+    }
+  }
+}

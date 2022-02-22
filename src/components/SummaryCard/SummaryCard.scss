@@ -1,0 +1,44 @@
+.SummaryCard {
+  background-color: #FFEDE1;
+  border: 1px solid rgba(255, 136, 51, 0.2);
+
+  &__text {
+    &--key-ideas::before {
+      content: "";
+      background-image: url(../../img/arrow-start.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+      width: 327px;
+      height: 78px;
+    }
+
+    &--key-ideas::after {
+      content: "";
+      background-image: url(../../img/arrow-end.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 327px;
+      display: block;
+      height: 78px;
+    }
+  }
+
+  &__subtext {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  &__image {
+    width: 256px;
+    height: 168px;
+    margin: 0 auto;
+
+    &--book {
+      background-image: url(../../img/book.svg);
+    }
+
+    &--iphone {
+      background-image: url(../../img/iphone.svg);
+    }
+  }
+}
