@@ -1,0 +1,36 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  
+  &__link {
+    width: 122px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../../img/logo.svg);
+  }
+
+  &__button-container {
+    align-self: center;
+    display: flex;
+    gap: 8px;
+  }
+
+  &__button {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    &--account {
+      background-image: url(../../img/account.svg);
+    }
+
+    &--menu {
+      background-image: url(../../img/menu.svg);
+    }
+  }
+}
