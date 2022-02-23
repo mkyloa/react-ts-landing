@@ -1,30 +1,41 @@
 {
   "files": {
-    "main.css": "/react-ts-landing/static/css/main.e9fa2aac.css",
-    "main.js": "/react-ts-landing/static/js/main.9af8201e.js",
+    "main.css": "/react-ts-landing/static/css/main.6dbdaf22.css",
+    "main.js": "/react-ts-landing/static/js/main.dcc54bee.js",
+    "static/media/person-2.png": "/react-ts-landing/static/media/person-2.c66e7c44de033dffbcc7.png",
     "static/media/image-1.png": "/react-ts-landing/static/media/image-1.17e58fd6feddbd4753a5.png",
+    "static/media/person-1.png": "/react-ts-landing/static/media/person-1.0be151cac291deca98ce.png",
+    "static/media/person-4.png": "/react-ts-landing/static/media/person-4.6c2b308b3a300705348e.png",
     "static/media/screen-read.png": "/react-ts-landing/static/media/screen-read.b2a1f3d165459ac1a986.png",
     "static/media/publications.svg": "/react-ts-landing/static/media/publications.afc09e04d8a1f8891d5a.svg",
     "static/media/screen-listen.png": "/react-ts-landing/static/media/screen-listen.a8e221316510448e9728.png",
+    "static/media/person-3.png": "/react-ts-landing/static/media/person-3.ec1dcd21c7efa70eae1f.png",
     "static/media/daily-goals.svg": "/react-ts-landing/static/media/daily-goals.df92d7d87bbd9f30997a.svg",
+    "static/media/stars-4.2.svg": "/react-ts-landing/static/media/stars-4.2.f93cace23fc064e940b6.svg",
+    "static/media/stars-4.7.svg": "/react-ts-landing/static/media/stars-4.7.19e9b3e6f8f6922a867c.svg",
     "static/media/stars.svg": "/react-ts-landing/static/media/stars.25aaa6a11f094ad5e15a.svg",
     "static/media/logo.svg": "/react-ts-landing/static/media/logo.83602ab9787c0f52ed28.svg",
+    "static/media/gplay-logo.svg": "/react-ts-landing/static/media/gplay-logo.840bdceb247b94c2e8ce.svg",
+    "static/media/appstore-logo.svg": "/react-ts-landing/static/media/appstore-logo.e07b122375b21bb2df31.svg",
     "static/media/instagram.svg": "/react-ts-landing/static/media/instagram.113a535ed5145d862bb0.svg",
+    "static/media/instagram-contacts.svg": "/react-ts-landing/static/media/instagram-contacts.253e3678f48fc3a488f4.svg",
     "static/media/book.svg": "/react-ts-landing/static/media/book.da47877dc8c62e003729.svg",
     "static/media/toggler-listen.svg": "/react-ts-landing/static/media/toggler-listen.34717b76640e17eeec38.svg",
     "static/media/iphone.svg": "/react-ts-landing/static/media/iphone.10fe4c13d96c5c1be2cd.svg",
     "static/media/toggler-read.svg": "/react-ts-landing/static/media/toggler-read.7ca1a84fe52cf2c3a11f.svg",
     "static/media/lightning-cards.svg": "/react-ts-landing/static/media/lightning-cards.4aa9d636b9fc0c27497d.svg",
+    "static/media/twitter.svg": "/react-ts-landing/static/media/twitter.58d156d3b7a236bb2455.svg",
     "static/media/account.svg": "/react-ts-landing/static/media/account.a7d3f08e87be8803ee5a.svg",
     "static/media/menu.svg": "/react-ts-landing/static/media/menu.4c72f5ec616289b45e85.svg",
     "index.html": "/react-ts-landing/index.html",
+    "static/media/facebook.svg": "/react-ts-landing/static/media/facebook.333334c42da81d462f5f.svg",
     "static/media/arrow-end.svg": "/react-ts-landing/static/media/arrow-end.3cccca65ccefb87f1a75.svg",
     "static/media/arrow-start.svg": "/react-ts-landing/static/media/arrow-start.07c10b20ecf9bac1db23.svg",
-    "main.e9fa2aac.css.map": "/react-ts-landing/static/css/main.e9fa2aac.css.map",
-    "main.9af8201e.js.map": "/react-ts-landing/static/js/main.9af8201e.js.map"
+    "main.6dbdaf22.css.map": "/react-ts-landing/static/css/main.6dbdaf22.css.map",
+    "main.dcc54bee.js.map": "/react-ts-landing/static/js/main.dcc54bee.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9fa2aac.css",
-    "static/js/main.9af8201e.js"
+    "static/css/main.6dbdaf22.css",
+    "static/js/main.dcc54bee.js"
   ]
 }
