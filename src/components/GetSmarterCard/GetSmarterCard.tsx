@@ -3,7 +3,7 @@ import './GetSmarterCard.scss';
 
 export const GetSmarterCard: React.FC = () => (
   <div className="GetSmarterCard card">
-    <h2 className="BetterYou__title">
+    <h2 className="GetSmarterCard__title title">
       Get smarter with the least effort
     </h2>
 

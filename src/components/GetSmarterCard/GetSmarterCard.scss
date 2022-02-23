@@ -2,9 +2,26 @@
   background-color: #E6F2E7;
   border: 1px solid rgba(0, 187, 119, 0.4);
 
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__subtitle {
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 16px;
+    }
+  }
+
   &__image {
     width: 327px;
     height: 180px;
+    margin: 0 auto 8px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

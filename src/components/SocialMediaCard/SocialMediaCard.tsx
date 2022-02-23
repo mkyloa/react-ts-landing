@@ -15,18 +15,23 @@ export const SocialMediaCard: React.FC = () => (
 
     <div className="SocialMediaCard__link-container">
       <a
-        href="" 
-        className="SocialMediaCard__link SocialMediaCard__link--facebook" 
+        href=""
+        className="SocialMediaCard__link SocialMediaCard__link--facebook"
+        onClick={(event) => event.preventDefault()}
       />
 
       <a
-        href="" 
+        href=""
         className="SocialMediaCard__link SocialMediaCard__link--instagram"
+        onClick={(event) => event.preventDefault()}
+
       />
 
       <a
-        href="" 
-        className="SocialMediaCard__link SocialMediaCard__link--twitter" 
+        href=""
+        className="SocialMediaCard__link SocialMediaCard__link--twitter"
+        onClick={(event) => event.preventDefault()}
+
       />
     </div>
   </div>

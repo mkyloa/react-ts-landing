@@ -22,16 +22,18 @@ export const ReadOrListenCard: React.FC = () => {
           Listen
         </span>
 
-        <div
-          className={
-            cn(
-              'ReadOrListenCard__button',
-              {
-                'ReadOrListenCard__button--read': buttonIsRead,
-              }
-            )}
-          onClick={() => setButtonIsRead(!buttonIsRead)}
-        />
+        {
+          buttonIsRead
+            ? <div
+              className="ReadOrListenCard__button ReadOrListenCard__button--read"
+              onClick={() => setButtonIsRead(!buttonIsRead)}
+            />
+            : <div
+              className="ReadOrListenCard__button"
+              onClick={() => setButtonIsRead(!buttonIsRead)}
+            />
+        }
+
 
         <span
           className={cn({ active: buttonIsRead })}
@@ -40,15 +42,15 @@ export const ReadOrListenCard: React.FC = () => {
         </span>
       </div>
 
-      <div
-        className={cn(
-          'ReadOrListenCard__image',
-          {
-            'ReadOrListenCard__image--read': buttonIsRead,
-          }
-        )}
-      >
-      </div>
+      {
+        buttonIsRead
+          ? <div
+            className='ReadOrListenCard__image ReadOrListenCard__image--read'
+          />
+          : <div
+            className='ReadOrListenCard__image'
+          />
+      }
     </div>
   );
 };

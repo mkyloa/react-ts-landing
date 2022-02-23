@@ -13,6 +13,7 @@
   }
 
   &__text {
+    margin-bottom: 24px;
     font-size: 16px;
     line-height: 150%;
   }
@@ -26,6 +27,7 @@
   &__image {
     width: 327px;
     height: 304px;
+    margin: 0 auto;
     background-image: url(../../img/image-1.png);
     background-position: center;
     background-repeat: no-repeat;
