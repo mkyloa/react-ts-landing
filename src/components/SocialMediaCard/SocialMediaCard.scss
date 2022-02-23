@@ -1,0 +1,45 @@
+.SocialMediaCard {
+  margin-bottom: 20px;
+
+  &__logo {
+    width: 132px;
+    height: 24px;
+    margin-bottom: 24px;
+    background-image: url(../../img/logo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__contacts {
+    display: block;
+    margin-bottom: 8px;
+    width: 327px;
+    text-align: start;
+  }
+
+  &__link-container {
+    display: flex;
+    gap: 12px;
+    width: 327px;
+    height: 24px;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+
+    &--facebook {
+      background-image: url(../../img/facebook.svg);
+    }
+
+    &--instagram {
+      background-image: url(../../img/instagram-contacts.svg);
+    }
+
+    &--twitter {
+      background-image: url(../../img/twitter.svg);
+    }
+  }
+}

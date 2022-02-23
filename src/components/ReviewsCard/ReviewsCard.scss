@@ -1,0 +1,140 @@
+.ReviewsCard {
+  background: #E6E9F5;
+  border: 1px solid rgba(0, 102, 255, 0.2);
+
+  &__text {
+    span {
+      color: #0068FF;
+    }
+  }
+
+  .review {
+    width: 327px;
+    padding: 12px;
+    margin-bottom: 16px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-align: left;
+
+    &__stars {
+        width: 303px;
+        height: 16px;
+        margin-bottom: 8px;
+        background-image: url(../../img/stars.svg);
+      }
+
+    &__text {
+      margin-bottom: 12px;
+      font-size: 14px;
+      line-height: 146%;
+    }
+  }
+
+  &__rating-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    width: 327px;
+    height: 122px;
+  }
+
+  &__rating-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 156px;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  &__store-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  &__rating-score {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 130%;
+    color: #0066FF;
+
+    &--gplay {
+      color: #00BB77;
+    }
+  }
+
+  &__store-logo {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../img/appstore-logo.svg);
+
+    &--gplay {
+      background-image: url(../../img/gplay-logo.svg);
+    }
+  }
+
+  &__stars {
+    width: 88px;
+    height: 16px;
+    margin: 0 auto 4px;
+    background-image: url(../../img/stars-4.7.svg);
+    background-size: cover;
+
+    &--gplay {
+      background-image: url(../../img/stars-4.2.svg);
+    }
+  }
+
+  &__rating-number {
+    font-size: 14px;
+    line-height: 146%;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 32px;
+  width: 303px;
+
+  &__photo {
+    background-image: url(../../img/person-1.png);
+    background-position: center;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+
+    &--2 {
+      background-image: url(../../img/person-2.png);
+    }
+
+    &--3 {
+      background-image: url(../../img/person-3.png);
+    }
+
+    &--4 {
+      background-image: url(../../img/person-4.png);
+    }
+  }
+
+  &__nickname {
+    font-size: 14px;
+    line-height: 146%;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  &__ig-logo {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background-image: url(../../img/instagram.svg);
+  }
+}
