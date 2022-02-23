@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ts-landing/static/css/main.e5eb9fe8.css",
-    "main.js": "/react-ts-landing/static/js/main.74e0c5cd.js",
+    "main.js": "/react-ts-landing/static/js/main.1532c036.js",
     "static/media/person-2.png": "/react-ts-landing/static/media/person-2.c66e7c44de033dffbcc7.png",
     "static/media/image-1.png": "/react-ts-landing/static/media/image-1.17e58fd6feddbd4753a5.png",
     "static/media/person-1.png": "/react-ts-landing/static/media/person-1.0be151cac291deca98ce.png",
@@ -43,10 +43,10 @@
     "static/media/arrow-end.svg": "/react-ts-landing/static/media/arrow-end.3cccca65ccefb87f1a75.svg",
     "static/media/arrow-start.svg": "/react-ts-landing/static/media/arrow-start.07c10b20ecf9bac1db23.svg",
     "main.e5eb9fe8.css.map": "/react-ts-landing/static/css/main.e5eb9fe8.css.map",
-    "main.74e0c5cd.js.map": "/react-ts-landing/static/js/main.74e0c5cd.js.map"
+    "main.1532c036.js.map": "/react-ts-landing/static/js/main.1532c036.js.map"
   },
   "entrypoints": [
     "static/css/main.e5eb9fe8.css",
-    "static/js/main.74e0c5cd.js"
+    "static/js/main.1532c036.js"
   ]
 }
