@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { BetterYou } from './components/BetterYou';
 import { GetSmarterCard } from './components/GetSmarterCard';
 import { SummaryCard } from './components/SummaryCard';
+import { GoalsCard } from './components/GoalsCard';
 import { ReadOrListenCard } from './components/ReadOrListenCard';
 import { ReviewsCard } from './components/ReviewsCard';
 import { SocialMediaCard } from './components/SocialMediaCard';
@@ -17,6 +18,7 @@ const App: React.FC = () => {
         <BetterYou />
         <GetSmarterCard />
         <SummaryCard />
+        <GoalsCard />
         <ReadOrListenCard />
         <ReviewsCard />
         <SocialMediaCard />
