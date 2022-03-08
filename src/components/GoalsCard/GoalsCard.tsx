@@ -1,11 +1,7 @@
 import React from 'react';
 import './GoalsCard.scss';
 
-// import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from 'react-scroll-motion';
-
-
 export const GoalsCard: React.FC = () => {
-  // const gc = document.querySelector('.GoalsCard');
   return (
     <div className="GoalsCard card">
       <h2 className="GoalsCard__title title">
@@ -146,48 +142,7 @@ export const GoalsCard: React.FC = () => {
         </ul>
       </div>
 
-      <div className="snippets"></div>
-
-      {/* <ScrollContainer scrollParent={gc}>
-        <ScrollPage page={2} debugBorder={false}>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
-            <span style={{ fontSize: '40px' }}>
-              <Animator animation={MoveIn(-1000, 0)}>Hello Guys 👋🏻</Animator>
-            </span>
-            
-            <span style={{ fontSize: '40px' }}>
-              <Animator animation={batch(Sticky(), MoveIn(1000, 0))}>Nice to meet you 🙋🏻‍♀️</Animator>
-            </span>
-
-            <span style={{ fontSize: '40px' }}>
-              <Animator animation={batch(Sticky(), MoveOut(1000, 0))}>Good bye ✋🏻</Animator>
-            </span>
-
-            <span style={{ fontSize: '40px' }}>
-              <Animator animation={MoveOut(-1000, 0)}>See you 💛</Animator>
-            </span>
-          </div>
-        </ScrollPage>
-        <ScrollPage page={3} debugBorder={false}>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
-            <span style={{ fontSize: '40px' }}>
-              <Animator animation={MoveIn(-1000, 0)}>Hello Guys 👋🏻</Animator>
-            </span>
-            
-            <span style={{ fontSize: '40px' }}>
-              <Animator animation={batch(Sticky(), MoveIn(1000, 0))}>Nice to meet you 🙋🏻‍♀️</Animator>
-            </span>
-
-            <span style={{ fontSize: '40px' }}>
-              <Animator animation={batch(Sticky(), MoveOut(1000, 0))}>Good bye ✋🏻</Animator>
-            </span>
-
-            <span style={{ fontSize: '40px' }}>
-              <Animator animation={MoveOut(-1000, 0)}>See you 💛</Animator>
-            </span>
-          </div>
-        </ScrollPage>
-      </ScrollContainer> */}
+      <div className="snippets" />
     </div >
   );
 };

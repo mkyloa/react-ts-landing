@@ -33,6 +33,11 @@
     display: inline-block;
     width: 24px;
     height: 24px;
+    transition: transform .25s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
 
     &--facebook {
       background-image: url(../../img/facebook.svg);

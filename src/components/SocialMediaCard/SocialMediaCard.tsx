@@ -15,23 +15,24 @@ export const SocialMediaCard: React.FC = () => (
 
     <div className="SocialMediaCard__link-container">
       <a
-        href=""
+        href="https://facebook.com/headwaybooks/"
+        target="_blank"
+        rel="noreferrer"
         className="SocialMediaCard__link SocialMediaCard__link--facebook"
-        onClick={(event) => event.preventDefault()}
       />
 
       <a
-        href=""
+        href="https://www.instagram.com/headway_app/"
+        target="_blank"
+        rel="noreferrer"
         className="SocialMediaCard__link SocialMediaCard__link--instagram"
-        onClick={(event) => event.preventDefault()}
-
       />
 
       <a
-        href=""
+        href="https://twitter.com/get_headway"
+        target="_blank"
+        rel="noreferrer"
         className="SocialMediaCard__link SocialMediaCard__link--twitter"
-        onClick={(event) => event.preventDefault()}
-
       />
     </div>
   </div>
