@@ -7,9 +7,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Used technologies:
 
-### React
-### TypeScript
-### Sass
-### ESLint
-### Stylelint
-### GitHub Pages
+  -**React**
+
+  -**TypeScript**
+
+  -**Sass**
+
+  -**ESLint**
+
+  -**Stylelint**
+
+  -**GitHub Pages**
