@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-ts-landing/static/css/main.74380ac0.css",
-    "main.js": "/react-ts-landing/static/js/main.e2e32ec7.js",
+    "main.css": "/react-ts-landing/static/css/main.7d40cb07.css",
+    "main.js": "/react-ts-landing/static/js/main.36e8058d.js",
     "static/media/person-2.png": "/react-ts-landing/static/media/person-2.c66e7c44de033dffbcc7.png",
     "static/media/image-1.png": "/react-ts-landing/static/media/image-1.17e58fd6feddbd4753a5.png",
     "static/media/person-1.png": "/react-ts-landing/static/media/person-1.0be151cac291deca98ce.png",
@@ -42,11 +42,11 @@
     "static/media/facebook.svg": "/react-ts-landing/static/media/facebook.333334c42da81d462f5f.svg",
     "static/media/arrow-end.svg": "/react-ts-landing/static/media/arrow-end.3cccca65ccefb87f1a75.svg",
     "static/media/arrow-start.svg": "/react-ts-landing/static/media/arrow-start.07c10b20ecf9bac1db23.svg",
-    "main.74380ac0.css.map": "/react-ts-landing/static/css/main.74380ac0.css.map",
-    "main.e2e32ec7.js.map": "/react-ts-landing/static/js/main.e2e32ec7.js.map"
+    "main.7d40cb07.css.map": "/react-ts-landing/static/css/main.7d40cb07.css.map",
+    "main.36e8058d.js.map": "/react-ts-landing/static/js/main.36e8058d.js.map"
   },
   "entrypoints": [
-    "static/css/main.74380ac0.css",
-    "static/js/main.e2e32ec7.js"
+    "static/css/main.7d40cb07.css",
+    "static/js/main.36e8058d.js"
   ]
 }
